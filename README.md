@@ -3,6 +3,20 @@
 Wally is a library to find functions by structure (inputs and outputs) and not by name or documentation like `doc` or `find-doc`.
 Wally is aimed at beginners but it can be useful to seasoned clojure programmers too.
 
+## Install
+
+Leiningen:
+
+    [wally "0.1.1"]
+
+Maven:
+
+    <dependency>
+        <groupId>wally</groupId>
+        <artifactId>wally</artifactId>
+        <version>0.1.1</version>
+    </dependency>
+
 ## Usage
 
 The main function in the lib is `find-by-sample`. It'll try to find functions that satisfy the supplied output and inputs and will print the doc for every matching function.
