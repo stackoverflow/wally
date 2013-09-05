@@ -5,7 +5,7 @@ Wally is aimed at beginners but it can be useful to seasoned clojure programmers
 
 ## Usage
 
-The main function on the lib is `find-by-sample`. It'll try to find functions that satisfy the supplied output and inputs and will print the doc for every matching function.
+The main function in the lib is `find-by-sample`. It'll try to find functions that satisfy the supplied output and inputs and will print the doc for every matching function.
 `find-by-sample` will only search for functions on namespaces listed on `white-list-namespaces`:
 
 ```clojure
@@ -92,5 +92,4 @@ clojure.core/unchecked-add-int
 
 Copyright © 2013 Islon Scherer
 
-Distributed under the Eclipse Public License either version 1.0 or (at
-your option) any later version.
+Distributed under the Eclipse Public License, the same as Clojure.
