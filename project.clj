@@ -1,4 +1,4 @@
-(defproject wally "0.1.0"
+(defproject wally "0.1.1"
   :description "A structural function finder for clojure"
   :url "http://github.com/stackoverflow/wally"
   :license {:name "Eclipse Public License"
